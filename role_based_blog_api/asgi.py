@@ -1,5 +1,5 @@
 """
-ASGI config for blog_project project.
+ASGI config for role_based_blog_api project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
