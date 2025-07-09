@@ -27,7 +27,11 @@ DEBUG = config('DEBUG', cast=bool, default=False)
 
 import os
 
-ALLOWED_HOSTS = ['role_based_blog_api.up.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [
+    'role-based-blog-api-production.up.railway.app',
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition

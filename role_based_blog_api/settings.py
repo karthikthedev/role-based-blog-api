@@ -25,7 +25,13 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', cast=bool, default=False)
 
 
-ALLOWED_HOSTS = []
+import os
+
+ALLOWED_HOSTS = [
+    'role-based-blog-api-production.up.railway.app',
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
