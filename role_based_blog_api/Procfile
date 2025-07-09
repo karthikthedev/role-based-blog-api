@@ -1,1 +1,1 @@
-web: gunicorn blog_project.wsgi
+web: gunicorn role_based_blog_api.wsgi
